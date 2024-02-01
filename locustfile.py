@@ -1,6 +1,6 @@
 from locust import HttpUser, task
 
-class HelloWorldUser(HttpUser):
+class Boycott_Japanese_Language(HttpUser):
     @task
     def hello_world(self):
         self.client.get("/")
